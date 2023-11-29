@@ -1,34 +1,6 @@
-import { Metadata } from 'next'
 import Image from 'next/image'
 import { FC, PropsWithChildren } from 'react'
 import logoImg from '@/assets/images/logo.png'
-import { BsArrowDown } from 'react-icons/bs'
-
-export const metadata: Metadata = {
-  title: 'thinkhuman.co',
-  description: 'We help mission-driven startups bootstrap and scale.',
-  openGraph: {
-    type: 'website',
-    url: 'https://thinkhuman.co',
-
-    title: 'We help mission-driven startups bootstrap and scale.',
-    description: `We're a group of product design and technology specialists working with mission-focused startups to solve problems that make an impact.`,
-    images: [
-      {
-        url: 'https://thinkhuman.co/images/og-share.png',
-        width: 1200,
-        height: 630,
-        alt: 'thinkhuman.co',
-      },
-    ],
-    siteName: 'thinkhuman.co',
-  },
-  twitter: {
-    site: 'thinkhuman.co',
-    card: 'summary_large_image',
-  },
-  themeColor: '#D1F0D5',
-}
 
 const SectionTitle: FC<PropsWithChildren> = ({ children }) => {
   return <h3 className="text-xl font-semibold lg:text-2xl">{children}</h3>
@@ -112,7 +84,7 @@ export default function Home() {
           If you&apos;re looking for a partner to help you build a better
           future, we&apos;d love to hear from you.
         </SectionBody>
-        <p className={'text-3xl font-bold'}>hello@thinkhuman.co</p>
+        <SectionTitle>hello@thinkhuman.co</SectionTitle>
       </Section>
     </div>
   )
