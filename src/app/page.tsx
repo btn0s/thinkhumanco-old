@@ -32,7 +32,7 @@ export default function Home() {
           className={'mb-12'}
         />
         <h1 className={'mb-4 text-3xl font-bold lg:text-4xl'}>
-          Supporting startups{' '}
+          Serving startups{' '}
           <span className={'text-[#286D49]'}>serving humanity</span>
         </h1>
         <h2 className={'text-lg lg:text-2xl'}>
@@ -41,7 +41,6 @@ export default function Home() {
           impact.
         </h2>
       </Section>
-      {/*<BsArrowDown className={'text-2xl lg:hidden'} />*/}
       <Section>
         <SectionTitle>Our mission-focused approach</SectionTitle>
         <SectionBody>
