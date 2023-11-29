@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import { FC, PropsWithChildren } from 'react'
 import logoImg from '@/assets/images/logo.png'
+import { BsArrowDown } from 'react-icons/bs'
 
 export const metadata: Metadata = {
   title: 'thinkhuman.co',
@@ -30,34 +31,45 @@ export const metadata: Metadata = {
 }
 
 const SectionTitle: FC<PropsWithChildren> = ({ children }) => {
-  return <h3 className="text-2xl font-semibold">{children}</h3>
+  return <h3 className="text-xl font-semibold lg:text-2xl">{children}</h3>
 }
 
 const SectionBody: FC<PropsWithChildren> = ({ children }) => {
-  return <p className="text-lg">{children}</p>
+  return <p className="lg:text-lg">{children}</p>
 }
 
-const Section: FC<PropsWithChildren> = ({ children }) => {
-  return <section className="flex flex-col gap-4">{children}</section>
+const Section: FC<
+  PropsWithChildren<{
+    className?: string
+  }>
+> = ({ children, className }) => {
+  return (
+    <section className={`flex flex-col gap-4 ${className}`}>{children}</section>
+  )
 }
 
 export default function Home() {
   return (
     <div className={'mx-auto flex max-w-4xl flex-col gap-24 px-6 py-24'}>
-      <Section>
-        <Image src={logoImg} alt={'thinkhuman.co'} width={48} height={48} />
-      </Section>
-      <Section>
-        <h1 className={'mb-4 text-4xl font-bold'}>
+      <Section className={'pt-12 lg:pb-10'}>
+        <Image
+          src={logoImg}
+          alt={'thinkhuman.co'}
+          width={48}
+          height={48}
+          className={'mb-12'}
+        />
+        <h1 className={'mb-4 text-3xl font-bold lg:text-4xl'}>
           Supporting startups{' '}
           <span className={'text-[#286D49]'}>serving humanity</span>
         </h1>
-        <h2 className={'text-2xl'}>
+        <h2 className={'text-lg lg:text-2xl'}>
           We&apos;re a group of product design and technology specialists
           working with mission-focused startups to solve problems that make an
           impact.
         </h2>
       </Section>
+      {/*<BsArrowDown className={'text-2xl lg:hidden'} />*/}
       <Section>
         <SectionTitle>Our mission-focused approach</SectionTitle>
         <SectionBody>
