@@ -23,16 +23,16 @@ const Section: FC<
 export default function Home() {
   return (
     <div className={'mx-auto flex max-w-4xl flex-col gap-24 px-6 py-24'}>
-      <Section className={'pt-12 lg:pb-10'}>
+      <Section>
         <Image
           src={logoImg}
           alt={'thinkhuman.co'}
           width={48}
           height={48}
-          className={'mb-12'}
+          className={'mb-4'}
         />
-        <h1 className={'mb-4 text-3xl font-bold lg:text-4xl'}>
-          Serving startups{' '}
+        <h1 className={'text-3xl font-bold lg:text-4xl'}>
+          Supporting startups that are{' '}
           <span className={'text-[#286D49]'}>serving humanity</span>
         </h1>
         <h2 className={'text-lg lg:text-2xl'}>
