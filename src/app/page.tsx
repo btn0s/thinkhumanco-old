@@ -53,8 +53,9 @@ export default function Home() {
           <span className={'text-[#286D49]'}>serving humanity</span>
         </h1>
         <h2 className={'text-2xl'}>
-          We're a group of product design and technology specialists working
-          with mission-focused startups to solve problems that make an impact.
+          We&apos;re a group of product design and technology specialists
+          working with mission-focused startups to solve problems that make an
+          impact.
         </h2>
       </Section>
       <Section>
@@ -65,9 +66,9 @@ export default function Home() {
           core values.
         </SectionBody>
         <SectionBody>
-          We're here to offer an alternative: We partner with you along the way,
-          providing the expertise you need to bootstrap and scale — all for the
-          rough cost of an early hire.
+          We&apos;re here to offer an alternative: We partner with you along the
+          way, providing the expertise you need to bootstrap and scale — all for
+          the rough cost of an early hire.
         </SectionBody>
       </Section>
       <Section>
@@ -84,7 +85,7 @@ export default function Home() {
         </SectionBody>
       </Section>
       <Section>
-        <SectionTitle>We're not for everyone</SectionTitle>
+        <SectionTitle>We&apos;re not for everyone</SectionTitle>
         <SectionBody>
           We seek out startups with a clear, compelling mission and the
           potential to make a significant impact. A strong, committed founder
@@ -96,8 +97,8 @@ export default function Home() {
       </Section>
       <Section>
         <SectionBody>
-          If you're looking for a partner to help you build a better future,
-          we'd love to hear from you.
+          If you&apos;re looking for a partner to help you build a better
+          future, we&apos;d love to hear from you.
         </SectionBody>
         <p className={'text-3xl font-bold'}>hello@thinkhuman.co</p>
       </Section>
