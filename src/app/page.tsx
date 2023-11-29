@@ -22,7 +22,9 @@ const Section: FC<
 
 export default function Home() {
   return (
-    <div className={'mx-auto flex max-w-4xl flex-col gap-24 px-6 py-24'}>
+    <div
+      className={'mx-auto flex max-w-4xl flex-col gap-12 px-6 py-24 lg:gap-24'}
+    >
       <Section>
         <Image
           src={logoImg}
