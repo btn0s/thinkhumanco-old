@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://thinkhuman.co',
-
     title: 'We help mission-driven startups bootstrap and scale.',
     description: `We're a group of product design and technology specialists working with mission-focused startups to solve problems that make an impact.`,
     images: [
