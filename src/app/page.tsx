@@ -34,12 +34,12 @@ export default function Home() {
           className={'mb-4'}
         />
         <h1 className={'text-3xl font-bold lg:text-4xl'}>
-          Supporting startups that are{' '}
-          <span className={'text-[#286D49]'}>serving humanity</span>
+          Building startups that{' '}
+          <span className={'text-[#286D49]'}>make people smile</span>
         </h1>
         <h2 className={'text-lg lg:text-2xl'}>
-          We&apos;re a group of product design and technology specialists
-          working with mission-focused startups to solve problems that make an
+          We&apos;re a design-led startup studio and consultancy
+          working with early-stage, mission-focused startups to solve problems that make an
           impact.
         </h2>
       </Section>
