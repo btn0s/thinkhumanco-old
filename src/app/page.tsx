@@ -26,8 +26,7 @@ export default function Home() {
       className={'mx-auto flex max-w-4xl flex-col gap-12 px-6 py-24 lg:gap-24'}
     >
       <Section>
-        <
-Image
+        <Image
           src={logoImg}
           alt={'thinkhuman.co'}
           width={48}
@@ -35,12 +34,13 @@ Image
           className={'mb-4'}
         />
         <h1 className={'text-3xl font-bold lg:text-4xl'}>
-          Building startups that{' '}
-          <span className={'text-[#286D49]'}>bring people joy</span>
+          Supporting startups that are{' '}
+          <span className={'text-[#286D49]'}>serving humanity</span>
         </h1>
         <h2 className={'text-lg lg:text-2xl'}>
-          We&apos;re a design-led startup studio and consultancy
-          working with early-stage, mission-focused startups to solve problems that simply make people happier.
+          We&apos;re a group of product design and technology specialists
+          working with mission-focused startups to solve problems that make an
+          impact.
         </h2>
       </Section>
       <Section>
